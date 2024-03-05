@@ -13,6 +13,9 @@ def get_emp_todo(emp_id):
     # Get number of completed todos -- Done
     # Get the name of the employee -- DONE 
 
+    # LIST ALL THE TASKS THE EMPLOYEE COMPLETED
+    # EACH TASK HAS TO BE PRINTED ON A NEW LINE
+
     emp_name = emp_data["name"]
     total_todos = len(emp_todo)
     completed_todos = 0
